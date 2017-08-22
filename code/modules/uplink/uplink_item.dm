@@ -893,15 +893,6 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 	cost = 6
 	exclude_modes = list(/datum/game_mode/gang)
 
-/datum/uplink_item/device_tools/toolbox
-	name = "Full Syndicate Toolbox"
-	desc = "The syndicate toolbox is a suspicious black and red. It comes loaded with a full tool set including a \
-			multitool and combat gloves that are resistant to shocks and heat. In addition the tools included are \
-			far more advanced than standard NanoTrasen issue engineering tools."
-	item = /obj/item/weapon/storage/toolbox/syndicate/stealth
-	cost = 1
-	exclude_modes = list(/datum/game_mode/nuclear)
-
 /datum/uplink_item/device_tools/toolboxops
 	name = "Full Syndicate Toolbox"
 	desc = "The syndicate toolbox is a suspicious black and red. It comes loaded with a full tool set including a \
@@ -909,7 +900,6 @@ GLOBAL_LIST_EMPTY(uplink_items) // Global list so we only initialize this once.
 			far more advanced than standard NanoTrasen issue engineering tools, comes in blood red."
 	item = /obj/item/weapon/storage/toolbox/syndicate/modern
 	cost = 1
-	include_modes = list(/datum/game_mode/nuclear)
 
 /datum/uplink_item/device_tools/surgerybag
 	name = "Syndicate Surgery Duffel Bag"
